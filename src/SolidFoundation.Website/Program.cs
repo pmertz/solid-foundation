@@ -1,10 +1,13 @@
+using System.Diagnostics.CodeAnalysis;
+
 namespace SolidFoundation.Website;
 
+[ExcludeFromCodeCoverage]
 public class Program
 {
-    public static void Main(string[] args) => CreateHostBuilder(args).Build().Run();
+    protected static void Main(string[] args) => CreateHostBuilder(args).Build().Run();
 
-    public static IHostBuilder CreateHostBuilder(string[] args) =>
+    private static IHostBuilder CreateHostBuilder(string[] args) =>
         Host.CreateDefaultBuilder(args)
             .ConfigureCmsDefaults()
             .ConfigureWebHostDefaults(webBuilder => webBuilder.UseStartup<Startup>());

@@ -6,7 +6,7 @@ using EPiServer.Security;
 namespace SolidFoundation.Foundation.Foundation.Constants;
 
 [GroupDefinitions]
-public class CmsTabNames
+public static class CmsTabNames
 {
     
     [Display(Order = 100)]

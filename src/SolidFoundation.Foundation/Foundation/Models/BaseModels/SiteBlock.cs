@@ -7,20 +7,8 @@ namespace SolidFoundation.Foundation.Foundation.Models.BaseModels;
 public abstract class SiteBlock : BlockData, IHideCategory
 {
     [Ignore]
-    public int BlockId
-    {
-        get
-        {
-            return this is not IContent content ? 0 : content.ContentLink.ID;
-        }
-    }
+    public int BlockId => this is not IContent content ? 0 : content.ContentLink.ID;
 
     [Ignore]
-    public string BlockName
-    {
-        get
-        {
-            return this is not IContent content ? string.Empty : content.Name;
-        }
-    }
+    public string BlockName => this is not IContent content ? string.Empty : content.Name;
 }

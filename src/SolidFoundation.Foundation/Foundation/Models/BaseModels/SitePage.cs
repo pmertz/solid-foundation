@@ -5,5 +5,5 @@ namespace SolidFoundation.Foundation.Foundation.Models.BaseModels;
 
 public abstract class SitePage : PageData, IHideCategory
 {
-     public virtual MetaDataBlock MetaData { get; set; }
+     public virtual MetaDataBlock? MetaData { get; set; }
 }

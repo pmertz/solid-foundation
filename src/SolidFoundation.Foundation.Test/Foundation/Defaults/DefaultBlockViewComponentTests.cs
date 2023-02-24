@@ -22,7 +22,7 @@ public class DefaultBlockViewComponentTests
         //assert
         var viewResult = Assert.IsType<ViewViewComponentResult>(result);
         Assert.NotNull(viewResult.ViewData);
-        Assert.NotNull(viewResult.ViewData.Model);
+        Assert.NotNull(viewResult.ViewData!.Model);
         Assert.IsType<BlockViewModel<TestBlock>>(viewResult.ViewData.Model);
         Assert.Equal($"~/Foundation/Defaults/{nameof(TestBlock)}.cshtml", viewResult.ViewName);
     }

@@ -1,3 +1,4 @@
+using System.Diagnostics.CodeAnalysis;
 using EPiServer.Cms.Shell;
 using EPiServer.Cms.UI.AspNetIdentity;
 using EPiServer.Scheduler;
@@ -7,6 +8,7 @@ using Mediachase.Commerce.Anonymous;
 
 namespace SolidFoundation.Website;
 
+[ExcludeFromCodeCoverage]
 public class Startup
 {
     private readonly IWebHostEnvironment _webHostingEnvironment;
