@@ -37,7 +37,7 @@ jobs:
           dotnet tool install --global dotnet-sonarscanner
           
       - name: Restore dependencies
-        run: dotnet restore --configfile src/nuget.config
+        run: dotnet restore --configfile ./src
       
       - name: Sonar Cloud Begin
         env:
@@ -45,17 +45,17 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         shell: pwsh
         run: |
-          .\.sonar\scanner\dotnet-sonarscanner begin /k:"pmertz_solid-foundation" /o:"pmertz" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
+          dotnet-sonarscanner begin /k:"pmertz_solid-foundation" /o:"pmertz" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
             
       - name: Dotnet build
         shell: pwsh
         run: |
-          dotnet build --no-restore --configuration Release
+          dotnet build ./src --no-restore --configuration Release
           
       - name: Dotnet test
         shell: pwsh
         run: |
-          dotnet test --no-restore --no-build  --configuration Release --collect:"XPlat Code Coverage" --results-directory TestResults/ /p:CoverletOutputFormat="opencover" /p:CollectCoverage=true /p:CoverletOutput="obj/" /p:SkipAutoProps=true          
+          dotnet test ./src --no-restore --no-build  --configuration Release --collect:"XPlat Code Coverage" --results-directory TestResults/ /p:CoverletOutputFormat="opencover" /p:CollectCoverage=true /p:CoverletOutput="obj/" /p:SkipAutoProps=true          
 
       - name: Sonar End
         if: always()
@@ -64,5 +64,5 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         shell: pwsh
         run: |
-          .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+          dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
           
