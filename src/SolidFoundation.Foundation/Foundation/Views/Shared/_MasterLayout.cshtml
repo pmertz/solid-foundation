@@ -1,0 +1,38 @@
+﻿@using EPiServer.Framework.Web.Mvc.Html
+@using EPiServer.Framework.Web.Resources
+@using EPiServer.Web
+@using EPiServer.Web.Mvc.Html
+@* @using SolidFoundation.Foundation.Foundation.Components.CanonicalLinks *@
+@* @using SolidFoundation.Foundation.Foundation.Components.OptimizelyQuickNavigator *@
+@* @using SolidFoundation.Foundation.Web.Foundation.Components.AlternateLinks *@
+@using SolidFoundation.Foundation.Foundation.Components.Metadata
+@using SolidFoundation.Foundation.Infrastructure.Services
+@inject IContextModeResolver ContextModeResolver
+@inject IContentLanguageService ContentLanguageService
+
+<!DOCTYPE html>
+
+<html lang="@ContentLanguageService.GetCurrentContentLanguage()" dir="@ContentLanguageService.GetTextDirection()" class="@(ContextModeResolver.CurrentMode == ContextMode.Edit ? "editMode" : "")">
+<head>
+    <!-- CurrentUICulture: @System.Globalization.CultureInfo.CurrentUICulture.Name -->
+    <!-- CurrentCulture: @System.Globalization.CultureInfo.CurrentCulture.Name -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no,user-scalable=no,minimal-ui,viewport-fit=cover">
+
+    @await Component.InvokeAsync(typeof(MetadataViewComponent), Model)
+    @* <vc:canonical-links content="@Model" ></vc:canonical-links> *@
+    @* <vc:alternate-links content="@Model"></vc:alternate-links> *@
+
+    @await RenderSectionAsync("HeaderSection", required: false)
+    @ClientResources.RenderAllRequiredResources("Header")
+</head>
+<body>
+@await RenderSectionAsync("StartBodySection", required:false)
+@await Html.RenderEPiServerQuickNavigatorAsync()
+@RenderBody()
+@await RenderSectionAsync("BeforeBodyEndSection", required: false)
+@Html.RequiredClientResources("Footer")
+</body>
+</html>

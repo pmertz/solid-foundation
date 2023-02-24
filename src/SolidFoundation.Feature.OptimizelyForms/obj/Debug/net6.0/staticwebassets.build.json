@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "RXZhYfoTLIU59l7iiCqma9m++J0hpiY2+Dgagf1wMCM=",
+  "Source": "SolidFoundation.Feature.OptimizelyForms",
+  "BasePath": "_content/SolidFoundation.Feature.OptimizelyForms",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SolidFoundation.Feature.OptimizelyForms\\wwwroot",
+      "Source": "SolidFoundation.Feature.OptimizelyForms",
+      "ContentRoot": "C:\\Repos\\solid-foundation\\src\\SolidFoundation.Feature.OptimizelyForms\\wwwroot\\",
+      "BasePath": "_content/SolidFoundation.Feature.OptimizelyForms",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Repos\\solid-foundation\\src\\SolidFoundation.Feature.OptimizelyForms\\wwwroot\\background.png",
+      "SourceId": "SolidFoundation.Feature.OptimizelyForms",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Repos\\solid-foundation\\src\\SolidFoundation.Feature.OptimizelyForms\\wwwroot\\",
+      "BasePath": "_content/SolidFoundation.Feature.OptimizelyForms",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "C:\\Repos\\solid-foundation\\src\\SolidFoundation.Feature.OptimizelyForms\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "SolidFoundation.Feature.OptimizelyForms",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Repos\\solid-foundation\\src\\SolidFoundation.Feature.OptimizelyForms\\wwwroot\\",
+      "BasePath": "_content/SolidFoundation.Feature.OptimizelyForms",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    }
+  ]
+}

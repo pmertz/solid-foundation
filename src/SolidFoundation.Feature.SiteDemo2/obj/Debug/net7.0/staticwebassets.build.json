@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "CvdTXcwuHG3TC1FXDsCnpbPUMgjdKBZisCwjJzPB8Cw=",
+  "Source": "SolidFoundation.Feature.SiteDemo2",
+  "BasePath": "_content/SolidFoundation.Feature.SiteDemo2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SolidFoundation.Feature.SiteDemo2\\wwwroot",
+      "Source": "SolidFoundation.Feature.SiteDemo2",
+      "ContentRoot": "C:\\Repos\\solid-foundation\\src\\SolidFoundation.Feature.SiteDemo2\\wwwroot\\",
+      "BasePath": "_content/SolidFoundation.Feature.SiteDemo2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Repos\\solid-foundation\\src\\SolidFoundation.Feature.SiteDemo2\\wwwroot\\background.png",
+      "SourceId": "SolidFoundation.Feature.SiteDemo2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Repos\\solid-foundation\\src\\SolidFoundation.Feature.SiteDemo2\\wwwroot\\",
+      "BasePath": "_content/SolidFoundation.Feature.SiteDemo2",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "C:\\Repos\\solid-foundation\\src\\SolidFoundation.Feature.SiteDemo2\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "SolidFoundation.Feature.SiteDemo2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Repos\\solid-foundation\\src\\SolidFoundation.Feature.SiteDemo2\\wwwroot\\",
+      "BasePath": "_content/SolidFoundation.Feature.SiteDemo2",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    }
+  ]
+}

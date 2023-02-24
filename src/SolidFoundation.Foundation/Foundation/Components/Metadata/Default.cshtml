@@ -1,0 +1,13 @@
+﻿@model SolidFoundation.Foundation.Foundation.Components.Metadata.MetadataViewModel
+
+<title>@Model.PageTitle</title>
+
+@if (Model.PageDescription is not null)
+{
+    <meta name="description" content="@Model.PageDescription" />
+}
+
+@if (!string.IsNullOrEmpty(Model.MetaRobots))
+{
+    <meta content="@Model.MetaRobots" name="robots">
+}

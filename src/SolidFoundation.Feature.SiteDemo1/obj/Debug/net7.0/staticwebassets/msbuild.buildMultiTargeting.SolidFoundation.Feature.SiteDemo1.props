@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SolidFoundation.Feature.SiteDemo1.props" />
+</Project>

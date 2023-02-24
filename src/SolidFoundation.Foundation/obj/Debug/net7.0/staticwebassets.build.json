@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "JkEiqkQXgsGvf3kUVE622uehHqjJd8LETWMonh0uoBY=",
+  "Source": "SolidFoundation.Foundation",
+  "BasePath": "_content/SolidFoundation.Foundation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SolidFoundation.Foundation\\wwwroot",
+      "Source": "SolidFoundation.Foundation",
+      "ContentRoot": "C:\\Repos\\solid-foundation\\src\\SolidFoundation.Foundation\\wwwroot\\",
+      "BasePath": "_content/SolidFoundation.Foundation",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

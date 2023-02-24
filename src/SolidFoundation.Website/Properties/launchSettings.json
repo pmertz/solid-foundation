@@ -1,0 +1,25 @@
+{
+  "profiles": {
+    "SolidFoundation.Website": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:7000;https://localhost:7001;https://localhost:7002;",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "publishAllPorts": true,
+      "useSSL": true,
+      "sslPort": 10007,
+      "environmentVariables": {
+        "ASPNETCORE_URLS": "https://+:7000;https://+:7001;https://+:7002;",
+        "ASPNETCORE_HTTPS_PORT": "7000"
+      },
+      "applicationUrl": "https://localhost:7000;https://localhost:7001;https://localhost:7002;"
+    }
+  }
+}

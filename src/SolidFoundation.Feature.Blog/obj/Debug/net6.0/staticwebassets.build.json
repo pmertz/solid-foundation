@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "43KFVJgRyKDcljpTz1ILDtYKzW5/BKEk/17fWWLTYrM=",
+  "Source": "SolidFoundation.Feature.Blog",
+  "BasePath": "_content/SolidFoundation.Feature.Blog",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SolidFoundation.Feature.Blog\\wwwroot",
+      "Source": "SolidFoundation.Feature.Blog",
+      "ContentRoot": "C:\\Repos\\solid-foundation\\src\\SolidFoundation.Feature.Blog\\wwwroot\\",
+      "BasePath": "_content/SolidFoundation.Feature.Blog",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Repos\\solid-foundation\\src\\SolidFoundation.Feature.Blog\\wwwroot\\background.png",
+      "SourceId": "SolidFoundation.Feature.Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Repos\\solid-foundation\\src\\SolidFoundation.Feature.Blog\\wwwroot\\",
+      "BasePath": "_content/SolidFoundation.Feature.Blog",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "C:\\Repos\\solid-foundation\\src\\SolidFoundation.Feature.Blog\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "SolidFoundation.Feature.Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Repos\\solid-foundation\\src\\SolidFoundation.Feature.Blog\\wwwroot\\",
+      "BasePath": "_content/SolidFoundation.Feature.Blog",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    }
+  ]
+}
