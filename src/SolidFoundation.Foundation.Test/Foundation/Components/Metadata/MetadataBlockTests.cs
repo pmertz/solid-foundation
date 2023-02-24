@@ -9,7 +9,7 @@ public class MetadataBlockTests
     public void SetDefaultValues_SetsDefaultValues()
     {
         var sut = new MetaDataBlock();
-        sut.SetDefaultValues(null);
+        sut.SetDefaultValues(null!);
         Assert.Equal("index, follow", sut.MetaRobots);
     }
 }

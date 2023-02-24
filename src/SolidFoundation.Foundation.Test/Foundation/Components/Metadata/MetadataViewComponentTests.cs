@@ -49,6 +49,7 @@ public class MetadataViewComponentTests
         //assert
         var viewResult = Assert.IsType<ViewViewComponentResult>(result);
         Assert.NotNull(viewResult);
-        Assert.IsType<MetadataViewModel>(viewResult.ViewData.Model);
+        Assert.NotNull(viewResult.ViewData);
+        Assert.IsType<MetadataViewModel>(viewResult.ViewData!.Model);
     }
 }
