@@ -35,6 +35,10 @@ TestResult.xml
 *.vsp
 *.vspx
 
+# VS2015 settings folder
+.vs
+Setup*.log
+
 # ReSharper is a .NET coding add-in
 _ReSharper*/
 *.[Rr]e[Ss]harper
@@ -74,15 +78,11 @@ Backup*/
 UpgradeLog*.XML
 UpgradeLog*.htm
 
-# VS2015 settings folder
-.vs
-Setup*.log
-
 # Optimizely Specific
 **/modules/_protected/*
 src/appdata/*
 
-# Exception for Forms.config ... jesus christ gitignore sux with the pattern matching
+# Exception for Optimizely Forms.config ... jesus christ gitignore sux with the pattern matching
 !**/_protected/EPiServer.Forms/
 !**/EPiServer.Forms/Forms.config
 **/EPiServer.Forms/EPiServer.Forms.zip

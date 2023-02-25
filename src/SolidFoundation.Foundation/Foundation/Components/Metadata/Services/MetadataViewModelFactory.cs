@@ -6,7 +6,7 @@ namespace SolidFoundation.Foundation.Foundation.Components.Metadata.Services
     {
         public MetadataViewModel Create(SitePage sitePage)
         {
-            var model = new MetadataViewModel(sitePage.MetaData.Title ?? sitePage.PageName)
+            var model = new MetadataViewModel(sitePage.MetaData?.Title ?? sitePage.PageName)
             {
                 MetaRobots = sitePage.MetaData.MetaRobots,
                 PageDescription = sitePage.MetaData.Description
