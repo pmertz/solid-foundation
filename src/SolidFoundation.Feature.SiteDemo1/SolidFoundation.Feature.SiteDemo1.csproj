@@ -2,8 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
     <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <PackageId>site-demo-1</PackageId>
   </PropertyGroup>
 
 
@@ -13,6 +14,19 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SolidFoundation.Foundation\SolidFoundation.Foundation.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="SiteDemo1\Pages\Home\HomePage.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="SiteDemo1\Components\Header" />
+    <Folder Include="SiteDemo1\Components\MainNavigation" />
   </ItemGroup>
 
 </Project>

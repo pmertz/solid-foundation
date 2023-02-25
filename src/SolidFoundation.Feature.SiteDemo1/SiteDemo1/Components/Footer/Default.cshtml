@@ -1,0 +1,14 @@
+@using EPiServer.Web.Mvc.Html
+@model SolidFoundation.Feature.SiteDemo1.SiteDemo1.Components.Footer.Models.FooterViewModel
+
+<div id="footer">
+    <div>
+        <div class="connect">
+            @foreach (var link in Model.SocialMediaFooterLinks)
+            {
+                <a href="@link.Url" class="@link.CssClass">@link.Name</a>
+            }
+        </div>
+        <p>@Html.PropertyFor(m => m.CopyrightMessage)</p>
+    </div>
+</div>

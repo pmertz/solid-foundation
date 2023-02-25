@@ -1,0 +1,47 @@
+@model SolidFoundation.Foundation.Foundation.Models.ViewModels.IContentViewModel<EPiServer.Core.IContent>
+
+@{
+    Layout = "~/Foundation/Views/Shared/_MasterLayout.cshtml";
+}
+<div id="page">
+	<div id="header">
+		<div>
+			<a href="/" class="logo"><img src="/_content/site-demo-1/images/logo.png" alt="Freeze"></a>
+			<ul id="navigation">
+				<li class="selected">
+					<a href="index.html">Home</a>
+				</li>
+				<li class="menu">
+					<a href="about.html">About</a>
+					<ul class="primary">
+						<li>
+							<a href="product.html">Product</a>
+						</li>
+					</ul>
+				</li>
+				<li class="menu">
+					<a href="blog.html">Blog</a>
+					<ul class="secondary">
+						<li>
+							<a href="singlepost.html">Single post</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	@RenderBody()
+	<vc:footer></vc:footer>
+</div>
+
+@section HeaderSection
+{
+	<link rel="stylesheet" href="/_content/site-demo-1/css/style.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="/_content/site-demo-1/css/mobile.css">
+	<script src="/_content/site-demo-1/js/mobile.js" type="text/javascript"></script>	
+}
+

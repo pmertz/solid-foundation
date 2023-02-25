@@ -1,0 +1,5 @@
+@using EPiServer.Web.Mvc.Html
+@model SolidFoundation.Foundation.Foundation.Models.ViewModels.IContentViewModel<SolidFoundation.Feature.SiteDemo1.SiteDemo1.Pages.Home.HomePage>
+
+<h1>@Html.PropertyFor(m => m.CurrentContent.Headline)</h1>
+@Html.PropertyFor(m => m.CurrentContent.Body) 

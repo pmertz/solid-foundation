@@ -5,6 +5,8 @@ using EPiServer.Scheduler;
 using EPiServer.ServiceLocation;
 using EPiServer.Web.Routing;
 using Mediachase.Commerce.Anonymous;
+using SolidFoundation.Feature.SiteDemo1;
+using SolidFoundation.Foundation;
 
 namespace SolidFoundation.Website;
 
@@ -27,6 +29,8 @@ public class Startup
             services.Configure<SchedulerOptions>(options => options.Enabled = false);
         }
 
+        services.AddFoundation()
+            .AddSiteDemo1();
         services
             .AddCmsAspNetIdentity<ApplicationUser>()
             .AddCommerce()

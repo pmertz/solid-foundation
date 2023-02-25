@@ -22,6 +22,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\SolidFounation.TestHelpers\SolidFounation.TestHelpers.csproj" />
       <ProjectReference Include="..\SolidFoundation.Foundation\SolidFoundation.Foundation.csproj" />
     </ItemGroup>
 

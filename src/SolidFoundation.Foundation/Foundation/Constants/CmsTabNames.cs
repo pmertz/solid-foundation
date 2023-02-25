@@ -11,7 +11,7 @@ public static class CmsTabNames
     
     [Display(Order = 100)]
     [RequiredAccess(AccessLevel.Edit)]
-    public const string MetaData = "Seo";
+    public const string MetaData = "Meta Data";
     
     [Display(Order = 900)]
     public const string SiteSettings = "Site Settings";
