@@ -23,4 +23,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Resources\Translations\**\*" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SolidFoundation.Feature.Commerce\SolidFoundation.Feature.Commerce.csproj" />
+    <ProjectReference Include="..\SolidFoundation.Feature.SiteDemo1\SolidFoundation.Feature.SiteDemo1.csproj" />
+  </ItemGroup>
 </Project>

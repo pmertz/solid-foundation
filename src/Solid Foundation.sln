@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidFoundation.Foundation.Test", "SolidFoundation.Foundation.Test\SolidFoundation.Foundation.Test.csproj", "{2230D0ED-FB13-4A33-89A0-94203EB0D855}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidFoundation.Feature.Commerce", "SolidFoundation.Feature.Commerce\SolidFoundation.Feature.Commerce.csproj", "{0AD9AFCF-40AF-4721-84A7-5D09891BDAB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{2230D0ED-FB13-4A33-89A0-94203EB0D855}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2230D0ED-FB13-4A33-89A0-94203EB0D855}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2230D0ED-FB13-4A33-89A0-94203EB0D855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AD9AFCF-40AF-4721-84A7-5D09891BDAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AD9AFCF-40AF-4721-84A7-5D09891BDAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AD9AFCF-40AF-4721-84A7-5D09891BDAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AD9AFCF-40AF-4721-84A7-5D09891BDAB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +92,7 @@ Global
 		{295B7753-BAB8-4B68-8021-E35C1412C47C} = {AB21E4C3-A35B-4F61-8431-DC92C8B62EF2}
 		{1F11EF95-8282-48B0-B899-01958B5A1805} = {AB21E4C3-A35B-4F61-8431-DC92C8B62EF2}
 		{2230D0ED-FB13-4A33-89A0-94203EB0D855} = {1F11EF95-8282-48B0-B899-01958B5A1805}
+		{0AD9AFCF-40AF-4721-84A7-5D09891BDAB5} = {BAA43A93-281E-4BB7-9B2F-8AA3BE6C65CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8075A50F-475B-4D93-B511-8FC3C8854D6E}
