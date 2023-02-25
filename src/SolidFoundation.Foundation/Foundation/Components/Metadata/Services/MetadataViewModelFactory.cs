@@ -8,8 +8,8 @@ namespace SolidFoundation.Foundation.Foundation.Components.Metadata.Services
         {
             var model = new MetadataViewModel(sitePage.MetaData?.Title ?? sitePage.PageName)
             {
-                MetaRobots = sitePage.MetaData.MetaRobots,
-                PageDescription = sitePage.MetaData.Description
+                MetaRobots = sitePage.MetaData?.MetaRobots,
+                PageDescription = sitePage.MetaData?.Description
             };
 
             return model;

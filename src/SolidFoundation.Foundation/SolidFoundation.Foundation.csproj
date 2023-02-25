@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
@@ -12,11 +13,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="EPiServer.CMS.AspNetCore.Mvc" Version="12.8.0" />
-    <PackageReference Include="EPiServer.CMS.Core" Version="12.8.0" />
-    <PackageReference Include="EPiServer.CMS.UI.Core" Version="12.13.2" />
+    <PackageReference Include="EPiServer.CMS.AspNetCore.Mvc" Version="12.13.0" />
+    <PackageReference Include="EPiServer.CMS.Core" Version="12.13.0" />
+    <PackageReference Include="EPiServer.CMS.UI.Core" Version="12.17.0" />
+    <PackageReference Include="EPiServer.Framework" Version="12.13.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.*" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.*" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>
