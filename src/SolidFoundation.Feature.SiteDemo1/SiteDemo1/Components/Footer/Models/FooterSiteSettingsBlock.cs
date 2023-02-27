@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using EPiServer.Cms.Shell.UI.ObjectEditing.EditorDescriptors;
 using EPiServer.DataAnnotations;
 using EPiServer.Shell.ObjectEditing;
@@ -16,9 +17,11 @@ namespace SolidFoundation.Feature.SiteDemo1.SiteDemo1.Components.Footer.Models;
 public class FooterSiteSettingsBlock : SiteBlock, ISiteSettingsBlock
 {
     [CultureSpecific]
+    [Display(Name = "Social Media Footer Links", Order = 10)]
     [EditorDescriptor(EditorDescriptorType = typeof(CollectionEditorDescriptor<SocialMediaFooterLink>))]
     public virtual IList<SocialMediaFooterLink>? SocialMediaFooterLinks { get; set; }
     
     [CultureSpecific]
+    [Display(Name = "Copyright Message", Order = 20)]
     public virtual string? CopyrightMessage { get; set; }
 }

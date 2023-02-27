@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using EPiServer.Core;
 using EPiServer.DataAnnotations;
 using SolidFoundation.Feature.SiteDemo1.SiteDemo1.Constants;
 using SolidFoundation.Foundation.Foundation.Models.BaseModels;

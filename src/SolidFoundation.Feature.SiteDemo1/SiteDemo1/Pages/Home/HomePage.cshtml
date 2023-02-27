@@ -1,5 +1,12 @@
 @using EPiServer.Web.Mvc.Html
 @model SolidFoundation.Foundation.Foundation.Models.ViewModels.IContentViewModel<SolidFoundation.Feature.SiteDemo1.SiteDemo1.Pages.Home.HomePage>
 
-<h1>@Html.PropertyFor(m => m.CurrentContent.Headline)</h1>
-@Html.PropertyFor(m => m.CurrentContent.Body) 
+<div id="body" class="home">
+	<div class="header">
+		<img src="@Url.ContentUrl(Model.CurrentContent.HeroImage)" alt="">
+		<div>
+			<a href="@Url.ContentUrl(Model.CurrentContent.HeroPageLink)">@Html.PropertyFor(m => m.CurrentContent.HeroLinkText)</a>
+		</div>
+	</div>
+	@Html.PropertyFor(m => m.CurrentContent.PageContent, new { HasContainer = false, HasItemContainers = false })
+</div>

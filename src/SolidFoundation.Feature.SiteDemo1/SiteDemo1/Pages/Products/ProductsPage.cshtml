@@ -1,0 +1,39 @@
+@using SolidFoundation.Feature.SiteDemo1.SiteDemo1.Pages.Products.Services
+@using EPiServer.Web.Mvc.Html
+@model SolidFoundation.Foundation.Foundation.Models.ViewModels.IContentViewModel<SolidFoundation.Feature.SiteDemo1.SiteDemo1.Pages.Products.ProductsPage>
+
+@inject IProductsPageViewModelFactory ViewModelFactory;
+
+@{
+    var viewModel = ViewModelFactory.Create(Model.CurrentContent);
+}
+
+<div id="body">
+	<div class="header">
+		<div>
+			<h1>@Html.PropertyFor(m => m.CurrentContent.PageHeadline)</h1>
+		</div>
+	</div>
+	<div>
+		@foreach (var category in viewModel.Categories)
+		{
+			<ul>
+				<li>
+					<h1>@category.CategoryName</h1>
+					<p>@category.KeySellingPoint</p>
+				</li>
+				@foreach (var productLink in category.ProductLinks)
+				{
+					<li>
+						<a href="@productLink.Url">
+							<img src="@productLink.ImageUrl" alt="@productLink.Name">
+							<h2>@productLink.Name</h2>
+						</a>
+					</li>
+				}
+			</ul>
+		}
+	</div>
+</div>
+
+

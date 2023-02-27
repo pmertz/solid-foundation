@@ -1,0 +1,11 @@
+@using EPiServer.Web.Mvc.Html
+@model SolidFoundation.Foundation.Foundation.Models.ViewModels.IBlockViewModel<SolidFoundation.Feature.SiteDemo1.SiteDemo1.Blocks.Splash.SplashBlock>
+
+<div class="body">
+    <div>
+        <div>
+            @Html.PropertyFor(m => m.CurrentBlock.Text)
+        </div>
+        <img src="@Url.ContentUrl(Model.CurrentBlock.Image)" alt="@Html.PropertyFor(m => m.CurrentBlock.ImageAltText)">
+    </div>
+</div>

@@ -13,9 +13,9 @@ public class ProductCategoryPage : SitePage
 {
     [CultureSpecific]
     [Display(Name = "Category Name", Order = 10)]
-    public virtual string? CategoryName { get; set; }
-    
+    public virtual string CategoryName { get; set; } = "";
+
     [CultureSpecific]
     [Display(Name = "Key Selling Point", Order = 20)]
-    public virtual string? KeySellingPoint { get; set; }
+    public virtual string KeySellingPoint { get; set; } = "";
 }

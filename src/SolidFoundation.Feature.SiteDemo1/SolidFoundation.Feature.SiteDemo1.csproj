@@ -25,8 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="SiteDemo1\Components\Header" />
-    <Folder Include="SiteDemo1\Components\MainNavigation" />
+    <_ContentIncludedByDefault Remove="SiteDemo1\Components\Header\Default.cshtml" />
   </ItemGroup>
 
 </Project>

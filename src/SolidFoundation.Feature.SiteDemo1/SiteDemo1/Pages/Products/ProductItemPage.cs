@@ -19,7 +19,7 @@ public class ProductItemPage : SitePage
     public virtual string? ProductName { get; set; }
 
     [Display(Name = "Product Image", Order = 20)]
-    [UIHint(UIHint.MediaFile)]
+    [UIHint(UIHint.Image)]
     public virtual ContentReference? ProductImage  { get; set; }
     
     [CultureSpecific]

@@ -6,4 +6,5 @@ namespace SolidFoundation.Feature.SiteDemo1.SiteDemo1.Constants;
 public static class SiteDemo1CmsGroupNames
 {
     public const string SiteDemo1Pages = "SiteDemo1 pages";
+    public const string SiteDemo1Blocks = "SiteDemo1 blocks";
 }

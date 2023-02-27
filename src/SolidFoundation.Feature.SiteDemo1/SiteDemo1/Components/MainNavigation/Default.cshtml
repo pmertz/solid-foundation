@@ -1,0 +1,11 @@
+@using EPiServer.Web.Mvc.Html
+@model (List<EPiServer.Core.IContent> NavigationItems, EPiServer.Core.ContentReference CurrentContentLink)
+<ul id="navigation">
+    @foreach (var item in Model.NavigationItems)
+    {
+        var cssClass = "menu" + (item.ContentLink.Equals(Model.CurrentContentLink) ? " selected" : string.Empty);
+        <li class="@cssClass">
+            <a href="@Url.ContentUrl(item.ContentLink)">@item.Name</a>
+        </li>
+    }
+</ul>

@@ -1,0 +1,19 @@
+@using EPiServer.Web.Mvc.Html
+@model SolidFoundation.Foundation.Foundation.Models.ViewModels.IContentViewModel<SolidFoundation.Feature.SiteDemo1.SiteDemo1.Pages.Products.ProductItemPage>
+
+<div id="body">
+    <div class="header">
+        <div>
+            <h1>@Html.PropertyFor(m => m.CurrentContent.ProductName)</h1>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="sidebar">
+            <img src="@Url.ContentUrl(Model.CurrentContent.ProductImage)" alt="@Html.PropertyFor(m => m.CurrentContent.ProductDescription)">
+        </div>        
+        <div class="article">
+            @Html.PropertyFor(m => m.CurrentContent.ProductDescription)
+        </div>
+    </div>
+</div>
+

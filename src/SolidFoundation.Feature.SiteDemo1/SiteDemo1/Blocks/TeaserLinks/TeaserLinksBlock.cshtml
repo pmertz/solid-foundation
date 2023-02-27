@@ -1,0 +1,17 @@
+@using SolidFoundation.Feature.SiteDemo1.SiteDemo1.Blocks.TeaserLinks.Models
+@using EPiServer.Web.Mvc.Html
+@model SolidFoundation.Foundation.Foundation.Models.ViewModels.IBlockViewModel<SolidFoundation.Feature.SiteDemo1.SiteDemo1.Blocks.TeaserLinks.TeaserLinksBlock>
+
+<div class="footer">
+    <div>
+        <ul>
+            @foreach (var teaserLink in Model.CurrentBlock.TeaserLinks ?? new List<TeaserLink>())
+            {
+                <li>
+                    <a href="@Url.ContentUrl(teaserLink.PageLink)" class="@teaserLink.CssClass.ToString()"></a>
+                    <h1>@teaserLink.LinkText?.ToUpper()</h1>
+                </li>
+            }
+        </ul>
+    </div>
+</div>
