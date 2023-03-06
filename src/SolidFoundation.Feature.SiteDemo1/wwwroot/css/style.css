@@ -92,7 +92,7 @@ img {
 }
 #header div ul li a {
 	color: #7a6666;
-	font-family: lato-regular-webfont;
+	font-family: lato-regular-webfont, sans-serif;
 	font-size: 15px;
 	font-weight: normal;
 	line-height: 15px;
@@ -109,7 +109,7 @@ img {
 }
 #header div ul li ul li a {
 	color: #cb3362;
-	font-family: lato-regular-webfont;
+	font-family: lato-regular-webfont, sans-serif;
 	font-size: 15px;
 	font-weight: normal;
 	line-height: 15px;
@@ -179,7 +179,7 @@ img {
 	background: url(../images/icons.png) no-repeat 0 -128px;
 	color: #FFFFFF;
 	display: block;
-	font-family: quicksand-bold-webfont;
+	font-family: quicksand-bold-webfont, sans-serif;
 	font-size: 24px;
 	font-weight: normal;
 	height: 99px;
@@ -225,7 +225,7 @@ img {
 #body.home div.body div div h1 {
 	color: #7A6666;
 	display: block;
-	font-family: lato-bold-webfont;
+	font-family: lato-bold-webfont, sans-serif;
 	font-size: 18px;
 	font-weight: normal;
 	line-height: 24px;
@@ -238,7 +238,7 @@ img {
 #body.home div.body div div h2 {
 	color: #E32A62;
 	display: block;
-	font-family: magra-bold-webfont;
+	font-family: magra-bold-webfont, sans-serif;
 	font-size: 30px;
 	font-weight: normal;
 	line-height: 30px;
@@ -251,7 +251,7 @@ img {
 #body.home div.body div div p {
 	color: #7a6666;
 	display: block;
-	font-family: roboto-regular-webfont;
+	font-family: roboto-regular-webfont, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 24px;
@@ -263,7 +263,7 @@ img {
 #body.home div.body div div p a {
 	color: #7a6666;
 	display: block;
-	font-family: roboto-regular-webfont;
+	font-family: roboto-regular-webfont, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 24px;
@@ -322,7 +322,7 @@ img {
 }
 #body.home div.footer div ul li h1 {
 	color: #ffffff;
-	font-family: lato-regular-webfont;
+	font-family: lato-regular-webfont, sans-serif;
 	font-size: 20px;
 	font-weight: normal;
 	line-height: 20px;
@@ -353,7 +353,7 @@ img {
 }
 #body div.header div h1 {
 	color: #FFFFFF;
-	font-family: lato-regular-webfont;
+	font-family: lato-regular-webfont, sans-serif;
 	font-size: 30px;
 	font-weight: normal;
 	line-height: 30px;
@@ -392,6 +392,12 @@ img {
 	padding: 36px 0 34px;
 	width: 280px;
 }
+#body div.footer div.productImage {
+	float: left;
+	margin: 0 10px 0 40px;
+	padding: 0;
+	width: 280px;
+}
 #body div.footer div.article {
 	float: left;
 	margin: 0;
@@ -417,7 +423,7 @@ img {
 }
 #body div.footer div h1 {
 	color: #CB3362;
-	font-family: lato-regular-webfont;
+	font-family: lato-regular-webfont, sans-serif;
 	font-size: 24px;
 	font-weight: normal;
 	line-height: 24px;
@@ -428,7 +434,7 @@ img {
 }
 #body div.footer div h2 {
 	color: #CB3362;
-	font-family: lato-regular-webfont;
+	font-family: lato-regular-webfont, sans-serif;
 	font-size: 24px;
 	font-weight: normal;
 	line-height: 24px;
@@ -439,7 +445,7 @@ img {
 }
 #body div.footer div p, #body div.footer div span {
 	color: #7A6666;
-	font-family: roboto-regular-webfont;
+	font-family: roboto-regular-webfont, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 24px;
@@ -454,7 +460,7 @@ img {
 }
 #body div.footer div p a {
 	color: #7a6666;
-	font-family: roboto-regular-webfont;
+	font-family: roboto-regular-webfont, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 24px;
@@ -486,7 +492,7 @@ img {
 }
 #body div ul li h1 {
 	color: #E32A62;
-	font-family: magra-bold-webfont;
+	font-family: magra-bold-webfont, sans-serif;
 	font-size: 28px;
 	font-weight: normal;
 	line-height: 28px;
@@ -497,7 +503,7 @@ img {
 }
 #body div ul li p {
 	color: #7A6666;
-	font-family: roboto-regular-webfont;
+	font-family: roboto-regular-webfont, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 24px;
@@ -508,7 +514,7 @@ img {
 }
 #body div ul li p a {
 	color: #7a6666;
-	font-family: roboto-regular-webfont;
+	font-family: roboto-regular-webfont, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 24px;
@@ -524,7 +530,7 @@ img {
 }
 #body div ul li h2 {
 	color: #e32a62;
-	font-family: lato-regular-webfont;
+	font-family: lato-regular-webfont, sans-serif;
 	font-size: 20px;
 	font-weight: normal;
 	line-height: 24px;
@@ -590,7 +596,7 @@ img {
 }
 #body div.blog .featured ul li div h1 {
 	color: #CB3362;
-	font-family: lato-regular-webfont;
+	font-family: lato-regular-webfont, sans-serif;
 	font-size: 24px;
 	font-weight: normal;
 	line-height: 24px;
@@ -602,7 +608,7 @@ img {
 #body div.blog .featured ul li div span {
 	color: #7A6666;
 	display: block;
-	font-family: roboto-regular-webfont;
+	font-family: roboto-regular-webfont, sans-serif;
 	font-size: 12px;
 	font-weight: normal;
 	line-height: 24px;
@@ -613,7 +619,7 @@ img {
 }
 #body div.blog .featured ul li div p {
 	color: #7a6666;
-	font-family: roboto-regular-webfont;
+	font-family: roboto-regular-webfont, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 24px;
@@ -624,7 +630,7 @@ img {
 }
 #body div.blog .featured ul li div p a {
 	color: #7a6666;
-	font-family: roboto-regular-webfont;
+	font-family: roboto-regular-webfont, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 24px;
@@ -636,7 +642,7 @@ img {
 	border: 2px solid #cbb5bc;
 	color: #a5838e;
 	display: block;
-	font-family: lato-bold-webfont;
+	font-family: lato-bold-webfont, sans-serif;
 	font-size: 16px;
 	font-weight: normal;
 	height: 36px;
@@ -659,7 +665,7 @@ img {
 	border: 2px solid #cbb5bc;
 	color: #a5838e;
 	display: block;
-	font-family: lato-bold-webfont;
+	font-family: lato-bold-webfont, sans-serif;
 	font-size: 16px;
 	font-weight: normal;
 	height: 36px;
@@ -694,7 +700,7 @@ img {
 }
 #body div.blog .sidebar h1, #body div.singlepost .sidebar h1 {
 	color: #CB3362;
-	font-family: magra-bold-webfont;
+	font-family: magra-bold-webfont, sans-serif;
 	font-size: 30px;
 	font-weight: normal;
 	line-height: 30px;
@@ -711,7 +717,7 @@ img {
 }
 #body div.blog .sidebar h2, #body div.singlepost .sidebar h2 {
 	color: #CB3362;
-	font-family: lato-regular-webfont;
+	font-family: lato-regular-webfont, sans-serif;
 	font-size: 24px;
 	font-weight: normal;
 	line-height: 24px;
@@ -723,7 +729,7 @@ img {
 #body div.blog .sidebar span, #body div.singlepost .sidebar span {
 	color: #7A6666;
 	display: block;
-	font-family: roboto-regular-webfont;
+	font-family: roboto-regular-webfont, sans-serif;
 	font-size: 12px;
 	font-weight: normal;
 	line-height: 24px;
@@ -735,7 +741,7 @@ img {
 #body div.blog .sidebar p, #body div.singlepost .sidebar p {
 	color: #7A6666;
 	display: block;
-	font-family: roboto-regular-webfont;
+	font-family: roboto-regular-webfont, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 24px;
@@ -747,7 +753,7 @@ img {
 }
 #body div.blog .sidebar p a, #body div.singlepost .sidebar p a {
 	color: #7a6666;
-	font-family: roboto-regular-webfont;
+	font-family: roboto-regular-webfont, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 24px;
@@ -759,7 +765,7 @@ img {
 	border: 2px solid #d3c2c7;
 	color: #a5838e;
 	display: block;
-	font-family: lato-bold-webfont;
+	font-family: lato-bold-webfont, sans-serif;
 	font-size: 16px;
 	font-weight: normal;
 	height: 36px;
@@ -786,7 +792,7 @@ img {
 }
 #body div.singlepost .featured h1 {
 	color: #CB3362;
-	font-family: lato-regular-webfont;
+	font-family: lato-regular-webfont, sans-serif;
 	font-size: 24px;
 	font-weight: normal;
 	line-height: 24px;
@@ -798,7 +804,7 @@ img {
 #body div.singlepost .featured span {
 	color: #7A6666;
 	display: block;
-	font-family: Arial;
+	font-family: Arial, sans-serif;
 	font-size: 12px;
 	font-weight: normal;
 	line-height: 24px;
@@ -809,7 +815,7 @@ img {
 }
 #body div.singlepost .featured p {
 	color: #7A6666;
-	font-family: Arial;
+	font-family: Arial, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 24px;
@@ -819,7 +825,7 @@ img {
 }
 #body div.singlepost .featured p a {
 	color: #7a6666;
-	font-family: Arial;
+	font-family: Arial, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 24px;
@@ -831,7 +837,7 @@ img {
 	border: 2px solid #CBB5BC;
 	color: #A5838E;
 	display: block;
-	font-family: lato-bold-webfont;
+	font-family: lato-bold-webfont, sans-serif;
 	font-size: 16px;
 	font-weight: normal;
 	height: 36px;
@@ -881,7 +887,7 @@ img {
 #body.contact div.body div div h1 {
 	color: #CB3362;
 	float: left;
-	font-family: lato-regular-webfont;
+	font-family: lato-regular-webfont, sans-serif;
 	font-size: 24px;
 	font-weight: normal;
 	line-height: 24px;
@@ -894,7 +900,7 @@ img {
 #body.contact div.body div div p {
 	color: #7a6666;
 	float: left;
-	font-family: roboto-regular-webfont;
+	font-family: roboto-regular-webfont, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 24px;
@@ -905,7 +911,7 @@ img {
 }
 #body.contact div.body div div p a {
 	color: #7a6666;
-	font-family: roboto-regular-webfont;
+	font-family: roboto-regular-webfont, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 24px;
@@ -923,7 +929,7 @@ img {
 #body div.footer .contact h1 {
 	color: #CB3362;
 	float: none;
-	font-family: lato-regular-webfont;
+	font-family: lato-regular-webfont, sans-serif;
 	font-size: 24px;
 	font-weight: normal;
 	line-height: 24px;
@@ -944,7 +950,7 @@ img {
 	border: 1px solid #B6ADB0;
 	color: #7A6666;
 	display: block;
-	font-family: lato-regular-webfont;
+	font-family: lato-regular-webfont, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	height: 38px;
@@ -959,7 +965,7 @@ img {
 	border: 1px solid #B6ADB0;
 	color: #7A6666;
 	display: block;
-	font-family: lato-regular-webfont;
+	font-family: lato-regular-webfont, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	height: 270px;
@@ -977,7 +983,7 @@ img {
 	color: #a5838e;
 	cursor: pointer;
 	display: block;
-	font-family: lato-bold-webfont;
+	font-family: lato-bold-webfont, sans-serif;
 	font-size: 16px;
 	font-weight: normal;
 	height: 40px;
@@ -1005,7 +1011,7 @@ img {
 #body div.footer .section h1 {
 	color: #CB3362;
 	display: block;
-	font-family: lato-regular-webfont;
+	font-family: lato-regular-webfont, sans-serif;
 	font-size: 24px;
 	font-weight: normal;
 	line-height: 24px;
@@ -1018,7 +1024,7 @@ img {
 #body div.footer .section p {
 	color: #7A6666;
 	display: block;
-	font-family: roboto-regular-webfont;
+	font-family: roboto-regular-webfont, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 24px;
@@ -1047,7 +1053,7 @@ img {
 #footer div p {
 	color: #FFFFFF;
 	display: block;
-	font-family: roboto-regular-webfont;
+	font-family: roboto-regular-webfont, sans-serif;
 	font-size: 12px;
 	font-weight: normal;
 	line-height: 15px;

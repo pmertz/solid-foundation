@@ -47,8 +47,7 @@
 		z-index: 999;
 	}
 	#header div > ul#navigation {
-		background-image: none;
-		background: rgba(121, 101, 102, 0.91);
+		background: rgba(121, 101, 102, 0.91) none;
 		border: 1px solid #f8f8f8;
 		border-radius: 0;
 		display: none;
@@ -78,7 +77,7 @@
 	#header div ul#navigation li a {
 		color: #f8f8f8;
 		display: block;
-		font-family: Arial;
+		font-family: Arial, sans-serif;
 		font-size: 1.125em;
 		font-weight: normal;
 		height: 3em;
