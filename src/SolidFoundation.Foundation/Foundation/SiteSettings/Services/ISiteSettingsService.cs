@@ -12,7 +12,7 @@ public interface ISiteSettingsService
     /// <typeparam name="TSiteSettingsBlock"></typeparam>
     /// <param name="language">If language is not specified, IContentLanguageAccessor.Language will be used</param>
     /// <returns>Site settings block of specific type</returns>
-    TSiteSettingsBlock? GetSettingByBlockType<TSiteSettingsBlock>(CultureInfo? language = null)
+    TSiteSettingsBlock GetSettingByBlockType<TSiteSettingsBlock>(CultureInfo? language = null)
         where TSiteSettingsBlock : ISiteSettingsBlock;
 
     /// <summary>

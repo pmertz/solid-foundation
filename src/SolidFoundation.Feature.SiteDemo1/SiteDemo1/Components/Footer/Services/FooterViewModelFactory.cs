@@ -17,9 +17,9 @@ public class FooterViewModelFactory : IFooterViewModelFactory
     {
         var footerSettings = _siteSettingsService.GetSettingByBlockType<FooterSiteSettingsBlock>();
         
-        var viewModel = new FooterViewModel(footerSettings?.SocialMediaFooterLinks ?? new List<SocialMediaFooterLink>())
+        var viewModel = new FooterViewModel(footerSettings.SocialMediaFooterLinks ?? new List<SocialMediaFooterLink>())
         {
-            CopyrightMessage = footerSettings?.CopyrightMessage ?? "<style class='color:red'>FooterSiteSettings or CopyrightMessage does not exist"
+            CopyrightMessage = footerSettings?.CopyrightMessage ?? "<style class='color:red'>CopyrightMessage does not exist</style>"
         };
         return viewModel;
     }

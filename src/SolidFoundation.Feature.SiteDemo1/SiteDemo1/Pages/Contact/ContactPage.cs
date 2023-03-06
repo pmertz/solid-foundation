@@ -13,10 +13,4 @@ public class ContactPage : SitePage
 {
     [CultureSpecific]
     public virtual string? PageHeadline { get; set; }
-
-    public override void SetDefaultValues(ContentType contentType)
-    {
-        base.SetDefaultValues(contentType);
-        PageHeadline = "Contact";
-    }
 }

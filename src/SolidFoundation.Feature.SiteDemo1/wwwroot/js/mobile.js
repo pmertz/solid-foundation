@@ -24,7 +24,7 @@ window.onload = function(){
 			getElm[i].appendChild(smenu);
 		}
 	}
-	let submenu = function (i){
+	function submenu (i){
 		const sub = getElm[i].children[1];
 		const b = sub.getAttribute('style');
 		if(b){

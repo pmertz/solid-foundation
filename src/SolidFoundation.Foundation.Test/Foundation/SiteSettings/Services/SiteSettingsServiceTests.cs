@@ -46,7 +46,7 @@ public class SiteSettingsServiceTests
             //assert
             Assert.True(result);
             Assert.IsAssignableFrom<TestSiteSettings>(siteSettings);
-            Assert.Equal("en-GB", ((ILocalizable)siteSettings!)?.Language.Name);
+            Assert.Equal("en-GB", ((ILocalizable)siteSettings!).Language.Name);
         }
 
         [Fact]

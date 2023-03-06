@@ -16,13 +16,13 @@ public class SiteSettingsService : ISiteSettingsService
             _contentLanguageAccessor = contentLanguageAccessor;
         }
 
-        public TSiteSettingsBlock? GetSettingByBlockType<TSiteSettingsBlock>(CultureInfo? language = null)
+        public TSiteSettingsBlock GetSettingByBlockType<TSiteSettingsBlock>(CultureInfo? language = null)
             where TSiteSettingsBlock : ISiteSettingsBlock
         {
-            return TryGetSettingByBlockType(out TSiteSettingsBlock? siteSettingsBlock, language)
+            return (TryGetSettingByBlockType(out TSiteSettingsBlock? siteSettingsBlock, language)
                 ? siteSettingsBlock
                 : throw new Exception(
-                    $"{typeof(TSiteSettingsBlock).Name}' site settings block is not found. Make sure that it exists!");
+                    $"{typeof(TSiteSettingsBlock).Name}' site settings block is not found. Make sure that it exists!"))!;
         }
         
         public bool TryGetSettingByBlockType<TSiteSettingsBlock>(out TSiteSettingsBlock? siteSettingsBlock, CultureInfo? language = null, bool useFallback = true, ContentReference? startPageReference = null)
