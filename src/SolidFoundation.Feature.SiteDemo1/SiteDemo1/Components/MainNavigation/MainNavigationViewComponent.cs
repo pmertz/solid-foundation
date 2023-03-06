@@ -21,11 +21,11 @@ public class MainNavigationViewComponent : ViewComponent
 
     public IViewComponentResult Invoke(IContent currentContent)
     {
-        var home = _contentLoader.Get<IContent>(ContentReference.StartPage);
+        var home = _contentLoader.Get<PageData>(ContentReference.StartPage);
         var children =
             _contentLoader.GetChildren<PageData>(ContentReference.StartPage, _contentLanguageAccessor.Language);
 
-        var contentReferencesForNavigation = new List<IContent> { home };
+        var contentReferencesForNavigation = new List<PageData> { home };
         contentReferencesForNavigation.AddRange(children);
         return View("~/SiteDemo1/Components/MainNavigation/Default.cshtml", (NavigationItems: contentReferencesForNavigation, CurrentContentLink : currentContent.ContentLink));
     }

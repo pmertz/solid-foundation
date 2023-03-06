@@ -9,6 +9,7 @@
     &lt;TestId&gt;xUnit::05D8E250-A0A3-4776-9233-DFFD02589889::net6.0::SolidFoundation.Feature.SiteDemo1.Test.SiteDemo1.Pages.Products.Models.CategoryViewModelTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::05D8E250-A0A3-4776-9233-DFFD02589889::net6.0::SolidFoundation.Feature.SiteDemo1.Test.SiteDemo1.Components.Footer.FooterViewComponentTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::05D8E250-A0A3-4776-9233-DFFD02589889::net6.0::SolidFoundation.Feature.SiteDemo1.Test.SiteDemo1.Components.Footer.Services.FooterViewModelFactoryTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::05D8E250-A0A3-4776-9233-DFFD02589889::net6.0::SolidFoundation.Feature.SiteDemo1.Test.SiteDemo1.Components.MainNavigation.MainNavigationViewComponentTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c5518084_002Ddbbf_002D4bdb_002D99c8_002Df5befbbedc0d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SiteSettingsServiceTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;

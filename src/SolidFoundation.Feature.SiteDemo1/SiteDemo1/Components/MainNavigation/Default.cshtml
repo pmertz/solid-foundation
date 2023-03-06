@@ -1,5 +1,5 @@
 @using EPiServer.Web.Mvc.Html
-@model (List<EPiServer.Core.IContent> NavigationItems, EPiServer.Core.ContentReference CurrentContentLink)
+@model (List<EPiServer.Core.PageData> NavigationItems, EPiServer.Core.ContentReference CurrentContentLink)
 <ul id="navigation">
     @foreach (var item in Model.NavigationItems)
     {
