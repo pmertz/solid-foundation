@@ -24,6 +24,6 @@ public class ProductItemPage : SitePage
     
     [CultureSpecific]
     [Display(Name = "Product Description", Order = 30)]
-    public virtual XhtmlString ProductDescription { get; set; }
+    public virtual XhtmlString? ProductDescription { get; set; }
     
 }

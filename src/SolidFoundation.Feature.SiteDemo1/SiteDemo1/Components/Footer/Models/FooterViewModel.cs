@@ -10,5 +10,5 @@ public class FooterViewModel
     }
 
     public IList<SocialMediaFooterLink> SocialMediaFooterLinks { get; }
-    public string CopyrightMessage { get; set; }
+    public string? CopyrightMessage { get; set; }
 }

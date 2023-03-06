@@ -13,7 +13,7 @@ public class TeaserLink
     [Display(Name = "Page Link", Order = 20)]
     public virtual PageReference? PageLink { get; set; }
     
-    [SelectOne(SelectionFactoryType = typeof(EnumSelectionFactory<TeaserLinkCssClassesEnum>))]
+    [SelectOne(SelectionFactoryType = typeof(EnumSelectionFactory<TeaserLinkCssClasses>))]
     [Display(Name = "Link Css Class", Order = 20)]
-    public virtual TeaserLinkCssClassesEnum? CssClass { get; set; }
+    public virtual TeaserLinkCssClasses? CssClass { get; set; }
 }

@@ -2,7 +2,7 @@ using System.ComponentModel;
 
 namespace SolidFoundation.Feature.SiteDemo1.SiteDemo1.Blocks.TeaserLinks.Models;
 
-public enum TeaserLinkCssClassesEnum
+public enum TeaserLinkCssClasses
 {
     [Description("Icecream")]
     product,

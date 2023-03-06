@@ -152,214 +152,244 @@
 		width: 100%;
 	}
 }
-@media only screen and (max-width : 568px) and (orientation : landscape) {
-	
-}
 	@media only screen and (max-width : 918px) {
-	#body{
+
+		#body div.blog, #body div.singlepost {
+			margin: 0;
+			max-width: none;
+			overflow: hidden;
+			padding: 10% 0;
+			width: 100%;
+		}
+
+		#body.home div.header div {
+			margin: 0 auto;
+			max-width: 960px;
+			min-height: 470px;
+			padding: 0;
+			position: relative;
+		}
+
+		#body.home div.header img {
+			display: block;
+			height: 21%;
+			left: 0;
+			margin: 0 auto;
+			padding: 0;
+			position: absolute;
+			width: 100%;
+		}
+
+		#body.home div.header div a {
+			margin: 0 auto;
+			padding: 52px 0 0;
+			position: relative;
+			right: 0;
+			top: 292px;
+		}
+
+		#body.home div.body div, #body.home div.footer div {
+			margin: 0 auto;
+			max-width: none;
+			width: 90%;
+		}
+
+		#body.home div.body div div {
+			float: none;
+			margin: 0 auto;
+			padding: 0;
+			width: 90%;
+		}
+
+		#body.home div.body div div h1, #body.home div.body div div h2, #body.home div.body div div p {
+			width: 100%;
+		}
+
+		#body.home div.body div img {
+			display: block;
+			float: none;
+			margin: 0 auto;
+			padding: 0;
+			position: inherit;
+			width: 100%;
+		}
+
+		#body.home div.footer div ul li {
+			float: none;
+			margin: 0;
+			padding: 0 0 8%;
+			width: 100%;
+		}
+
+		#body.home div.footer div ul li a.contact {
+			float: none;
+		}
+
+		#body div.body {
+			min-height: 280px;
+		}
+
+		#body div.body img {
+			display: block;
+			height: 15%;
+			left: 0;
+			margin: 0 auto;
+			padding: 0;
+			position: absolute;
+			width: 100%;
+		}
+
+		#body div.footer {
+			margin: 0;
+			max-width: none;
+			overflow: hidden;
+			padding: 0 0 0;
+			width: 100%;
+		}
+
+		#body div.footer div.sidebar {
+			float: none;
+			margin: 10% auto 0;
+			padding: 36px 0 34px;
+			width: 90%;
+		}
+
+		#body div.footer div.article {
+			float: none;
+			margin: 0 auto;
+			padding: 8% 0 0 0;
+			width: 90%;
+		}
+
+		#body div ul {
+			padding: 10% 0;
+			width: 100%;
+		}
+
+		#body div ul li {
+			float: none;
+			margin: 0 auto;
+			padding: 0;
+			width: 90%;
+		}
+
+		#body div ul li h1, #body div ul li p {
+			margin: 0;
+			padding: 0;
+			width: 100%;
+		}
+
+		#body div.blog .featured {
+			float: none;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+		}
+
+		#body div.blog .sidebar {
+			background-color: #EFEDEE;
+			float: none;
+			margin: 0;
+			padding: 0 0 71px;
+			width: 100%;
+		}
+
+		#body div.blog .featured ul li:first-child {
+			margin: 10% auto;
+		}
+
+		#body div.blog .featured ul li {
+			background: none;
+			margin: 10% auto;
+			width: 90%;
+		}
+
+		#body div.blog .featured ul li img {
+			float: none;
+			margin: 5% auto;
+		}
+
+		#body div.blog .featured ul li div {
+			float: none;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+		}
+
+		#body div.singlepost .featured img, #body div.singlepost .featured h1, #body div.singlepost .featured span, #body div.singlepost .featured p {
+			padding: 4% 0;
+		}
+
+		#body div.blog .featured a.load, #body div.singlepost .featured a.load {
+			display: none;
+		}
+
+		#body div.blog .sidebar, #body div.singlepost .featured, #body div.singlepost .sidebar {
+			float: none;
+			margin: 0 auto;
+			padding: 0 0 35px;
+			width: 90%;
+		}
+
+		#body.contact div.body div {
+			padding: 4% 0;
+			max-width: none;
+			width: 100%;
+		}
+
+		#body.contact div.body div div {
+			padding: 5% 0;
+			width: 90%;
+		}
+
+		#body.contact div.body div div img {
+			float: none;
+			margin: 0 auto;
+		}
+
+		#body.contact div.body div div h1, #body.contact div.body div div p {
+			padding: 0 0 0 4%;
+			width: 96%;
+		}
+
+		#footer div {
+			margin: 0 auto;
+			width: 90%;
+		}
+
+		#body div.footer .contact {
+			float: none;
+			margin: 0 auto;
+			max-width: none;
+			padding: 4% 0;
+			width: 90%;
+		}
+
+		#body div.footer .contact form {
+			margin: 0;
+			overflow: hidden;
+			padding: 0;
+			width: 100%;
+		}
+
+		#body div.footer .contact form input, #body div.footer .contact form textarea {
+			-webkit-appearance: none;
+			border-radius: 0;
+			margin: 0 auto 8px;
+			width: 90%;
+		}
+
+		#body div.footer .contact form input#submit {
+			-webkit-appearance: none;
+			margin: 0 0 0 2%;
+		}
+
+		#body div.footer .section {
+			background-color: #EFEDEE;
+			float: none;
+			margin: 0 auto 5%;
+			max-width: none;
+			padding: 0 0 35px;
+			width: 90%;
+		}
 	}
-	#body.home {
-	}
-	#body div.blog, #body div.singlepost {
-		margin: 0;
-		max-width: none;
-		overflow: hidden;
-		padding: 10% 0;
-		width: 100%;
-	}
-	#body.home div.header div {
-		margin: 0 auto;
-		max-width: 960px;
-		min-height: 470px;
-		padding: 0;
-		position: relative;
-	}
-	#body.home div.header img {
-		display: block;
-		height: 21%;
-		left: 0;
-		margin: 0 auto;
-		padding: 0;
-		position: absolute;
-		width: 100%;
-	}
-	#body.home div.header div a {
-		margin: 0 auto;
-		padding: 52px 0 0;
-		position: relative;
-		right: 0;
-		top: 292px;
-	}
-	#body.home div.body div, #body.home div.footer div {
-		margin: 0 auto;
-		max-width: none;
-		width: 90%;
-	}
-	#body.home div.body div div {
-		float: none;
-		margin: 0 auto;
-		padding: 0;
-		width: 90%;
-	}
-	#body.home div.body div div h1, #body.home div.body div div h2, #body.home div.body div div p {
-		width: 100%;
-	}
-	#body.home div.body div img {
-		display: block;
-		float: none;
-		margin: 0 auto;
-		padding: 0;
-		position: inherit;
-		width: 100%;
-	}
-	#body.home div.footer div ul li {
-		float: none;
-		margin: 0;
-		padding: 0 0 8%;
-		width: 100%;
-	}
-	#body.home div.footer div ul li a.contact {
-		float: none;
-	}
-	#body div.body {
-		min-height: 280px;
-	}
-	#body div.body img {
-		display: block;
-		height: 15%;
-		left: 0;
-		margin: 0 auto;
-		padding: 0;
-		position: absolute;
-		width: 100%;
-	}
-	#body div.footer {
-		margin: 0;
-		max-width: none;
-		overflow: hidden;
-		padding: 0 0 0;
-		width: 100%;
-	}
-	#body div.footer div.sidebar {
-		float: none;
-		margin: 10% auto 0;
-		padding: 36px 0 34px;
-		width: 90%;
-	}
-	#body div.footer div.article {
-		float: none;
-		margin: 0 auto;
-		padding: 8% 0 0 0;
-		width: 90%;
-	}
-	#body div ul {
-		padding: 10% 0;
-		width: 100%;
-	}
-	#body div ul li {
-		float: none;
-		margin: 0 auto;
-		padding: 0;
-		width: 90%;
-	}
-	#body div ul li h1, #body div ul li p {
-		margin: 0;
-		padding: 0;
-		width: 100%;
-	}
-	#body div.blog .featured {
-		float: none;
-		margin: 0;
-		padding: 0;
-		width: 100%;
-	}
-	#body div.blog .sidebar {
-		background-color: #EFEDEE;
-		float: none;
-		margin: 0;
-		padding: 0 0 71px;
-		width: 100%;
-	}
-	#body div.blog .featured ul li:first-child {
-		margin: 10% auto;
-	}
-	#body div.blog .featured ul li {
-		background: none;
-		margin: 10% auto;
-		width: 90%;
-	}
-	#body div.blog .featured ul li img {
-		float: none;
-		margin: 5% auto;
-	}
-	#body div.blog .featured ul li div {
-		float: none;
-		margin: 0;
-		padding: 0;
-		width: 100%;
-	}
-	#body div.singlepost .featured img, #body div.singlepost .featured h1, #body div.singlepost .featured span, #body div.singlepost .featured p {
-		padding: 4% 0;
-	}
-	#body div.blog .featured a.load, #body div.singlepost .featured a.load {
-		display: none;
-	}
-	#body div.blog .sidebar, #body div.singlepost .featured,  #body div.singlepost .sidebar {
-		float: none;
-		margin: 0 auto;
-		padding: 0 0 35px;
-		width: 90%;
-	}
-	#body.contact div.body div{
-		padding: 4% 0;
-		max-width: none;
-		width: 100%;
-	}
-	#body.contact div.body div div{
-		padding: 5% 0;
-		width: 90%;
-	}
-	#body.contact div.body div div img{
-		float: none;
-		margin: 0 auto;
-	}
-	#body.contact div.body div div h1, #body.contact div.body div div p{
-		padding: 0 0 0 4%;
-		width: 96%;
-	}
-	#footer div {
-		margin: 0 auto;
-		width: 90%;
-	}
-	#body div.footer .contact {
-		float: none;
-		margin: 0 auto;
-		max-width: none;
-		padding: 4% 0;
-		width: 90%;
-	}
-	#body div.footer .contact form {
-		margin: 0;
-		overflow: hidden;
-		padding: 0;
-		width: 100%;
-	}
-	#body div.footer .contact form input, #body div.footer .contact form textarea {
-		-webkit-appearance: none;
-		border-radius: 0;
-		margin: 0 auto 8px;
-		width: 90%;
-	}
-	#body div.footer .contact form input#submit {
-		-webkit-appearance: none;
-		margin: 0 0 0 2%;
-	}
-	#body div.footer .section {
-		background-color: #EFEDEE;
-		float: none;
-		margin: 0 auto 5%;
-		max-width: none;
-		padding: 0 0 35px;
-		width: 90%;
-	}
-}

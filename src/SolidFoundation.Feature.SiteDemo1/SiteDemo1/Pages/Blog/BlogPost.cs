@@ -19,5 +19,5 @@ public class BlogPost : SitePage
     
     [CultureSpecific]
     [Display(Name = "Product Description", Order = 20)]
-    public virtual XhtmlString Body { get; set; }        
+    public virtual XhtmlString? Body { get; set; }        
 }
