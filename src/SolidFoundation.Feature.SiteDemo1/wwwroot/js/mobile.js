@@ -16,7 +16,7 @@ window.onload = function(){
 		}
 	};
 	const getElm = getNavi.getElementsByTagName("LI");
-	for(const i=0;i<getElm.length;i++){
+	for(let i=0;i<getElm.length;i++){
 		if(getElm[i].children.length>1){
 			const smenu = document.createElement("span");
 			smenu.setAttribute("class","mobile-submenu");
@@ -24,7 +24,7 @@ window.onload = function(){
 			getElm[i].appendChild(smenu);
 		}
 	}
-	const submenu = function (i){
+	let submenu = function (i){
 		const sub = getElm[i].children[1];
 		const b = sub.getAttribute('style');
 		if(b){
