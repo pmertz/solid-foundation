@@ -23,4 +23,19 @@ public class ContentAreaItemRangeValidatorTests
             .Received()
             .ValidateProperty(Arg.Any<IContent>(), Arg.Any<PropertyInfo>());
     }
+    
+    [Fact]
+    public void Validate_GivenVaildationError_ReturnError()
+    {
+        var contentAreaItemRangePropertyValidationServiceMock =
+            Substitute.For<IContentAreaItemRangePropertyValidationService>();
+        var sut = new ContentAreaItemRangeValidator(contentAreaItemRangePropertyValidationServiceMock);
+        var testPage = new TestPage();
+
+        var result = sut.Validate(testPage).ToList();
+
+        contentAreaItemRangePropertyValidationServiceMock
+            .Received()
+            .ValidateProperty(Arg.Any<IContent>(), Arg.Any<PropertyInfo>());
+    }    
 }

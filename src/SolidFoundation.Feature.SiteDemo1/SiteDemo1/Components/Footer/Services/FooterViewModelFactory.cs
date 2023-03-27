@@ -19,7 +19,7 @@ public class FooterViewModelFactory : IFooterViewModelFactory
         
         var viewModel = new FooterViewModel(footerSettings.SocialMediaFooterLinks ?? new List<SocialMediaFooterLink>())
         {
-            CopyrightMessage = footerSettings?.CopyrightMessage ?? "<style class='color:red'>CopyrightMessage does not exist</style>"
+            CopyrightMessage = footerSettings.CopyrightMessage ?? "<style class='color:red'>CopyrightMessage does not exist</style>"
         };
         return viewModel;
     }
