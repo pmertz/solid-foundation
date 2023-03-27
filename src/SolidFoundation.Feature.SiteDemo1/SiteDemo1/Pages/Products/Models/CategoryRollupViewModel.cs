@@ -2,9 +2,9 @@ using System.Collections.Generic;
 
 namespace SolidFoundation.Feature.SiteDemo1.SiteDemo1.Pages.Products.Models;
 
-public class CategoryViewModel
+public class CategoryRollupViewModel
 {
-    public CategoryViewModel(string categoryName, string keySellingPoint, IEnumerable<ProductLink> productLinks)
+    public CategoryRollupViewModel(string categoryName, string keySellingPoint, IEnumerable<ProductLink> productLinks)
     {
         CategoryName = categoryName;
         KeySellingPoint = keySellingPoint;

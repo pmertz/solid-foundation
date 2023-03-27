@@ -15,7 +15,7 @@ public class CategoryViewModelTests
         var productLinks = new List<ProductLink> {new("Test", "/images/test.jpg", "/my-product")};
 
         //act
-        var sut = new CategoryViewModel(name, keySellingPoint, productLinks);
+        var sut = new CategoryRollupViewModel(name, keySellingPoint, productLinks);
         
         //assert
         Assert.Equal(name, sut.CategoryName);
