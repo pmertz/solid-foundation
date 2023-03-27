@@ -62,7 +62,7 @@ public class CategoryRollupViewModelFactoryTests
             );
     }
 
-    private ProductItemPage CreateProductItemPageMock(int id)
+    private static ProductItemPage CreateProductItemPageMock(int id)
     {
         var mock = Substitute.For<ProductItemPage>();
         mock.ContentLink.Returns(new ContentReference(id));

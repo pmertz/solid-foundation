@@ -1,17 +1,16 @@
 ﻿using System.Reflection;
 using EPiServer.Core;
 using EPiServer.Validation;
-using SolidFoundation.Foundation.OptimizelyExtensions.Models;
 
 namespace SolidFoundation.Foundation.OptimizelyExtensions.Validation.ContentAreaItemRange;
 
 public class ContentAreaItemRangePropertyValidationService : IContentAreaItemRangePropertyValidationService
     {
-        public ValidationError ValidateProperty(IContent content, PropertyInfo contentAreaProp)
+        public ValidationError? ValidateProperty(IContent content, PropertyInfo contentAreaProp)
         {
             var range = contentAreaProp.GetCustomAttribute<ContentAreaItemRangeAttribute>();
             if (range is null)
-                return new NoError();
+                return null;
 
             if (contentAreaProp.PropertyType != typeof(ContentArea))
                 throw new ArgumentException("ContentAreaItemRange attribute is used on a non ContentArea property.");
@@ -19,7 +18,7 @@ public class ContentAreaItemRangePropertyValidationService : IContentAreaItemRan
             var contentAreaValue = contentAreaProp.GetValue(content);
             if(contentAreaValue is null && range.Minimum == 0)
             {
-                return new NoError();
+                return null;
             }
 
             if (contentAreaValue is not ContentArea contentArea)
@@ -38,7 +37,7 @@ public class ContentAreaItemRangePropertyValidationService : IContentAreaItemRan
                 return CreateError(range.ErrorMessage, ValidationErrorSeverity.Error, contentAreaProp.Name, range);
             }
 
-            return new NoError();
+            return null;
         }
         
         private static ValidationError CreateError(string? errorMessage, ValidationErrorSeverity severity, string propertyName, ContentAreaItemRangeAttribute rangeAttribute)

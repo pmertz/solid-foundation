@@ -85,5 +85,43 @@ public class FooterViewModelFactoryTests
         
         Assert.NotNull(result);
         Assert.Equal("Test Copyright message", result.CopyrightMessage);
+    }
+    
+    [Fact]
+    public void Create_GivenSocialMediaFooterLinkIsNull_ReturnEmptyList()
+    {
+        //arrange
+        var siteSettingsService = Substitute.For<ISiteSettingsService>();
+        siteSettingsService.GetSettingByBlockType<FooterSiteSettingsBlock>()
+            .Returns(new FooterSiteSettingsBlock
+            {
+                SocialMediaFooterLinks = null,
+                CopyrightMessage = "Test Copyright message"
+            });
+        var sut = new FooterViewModelFactory(siteSettingsService);
+
+        var result = sut.Create();
+        
+        Assert.Empty(result.SocialMediaFooterLinks);
+    } 
+    
+    [Fact]
+    public void Create_SocialMediaFooterLinkIsNotNull_ReturnSocialLinks()
+    {
+        //arrange
+        var siteSettingsService = Substitute.For<ISiteSettingsService>();
+        siteSettingsService.GetSettingByBlockType<FooterSiteSettingsBlock>()
+            .Returns(new FooterSiteSettingsBlock
+            {
+                SocialMediaFooterLinks = new List<SocialMediaFooterLink>
+                    { new() { Name = "Test", CssClass = FooterCssClasses.facebook, Url = "www.facebook.com" } },
+                CopyrightMessage = null
+            });
+        var sut = new FooterViewModelFactory(siteSettingsService);
+
+        var result = sut.Create();
+        
+        Assert.NotNull(result);
+        Assert.NotEmpty(result.SocialMediaFooterLinks);
     }    
 }

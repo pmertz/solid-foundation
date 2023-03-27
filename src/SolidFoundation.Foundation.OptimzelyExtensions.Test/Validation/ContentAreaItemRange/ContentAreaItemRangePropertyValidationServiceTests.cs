@@ -4,7 +4,6 @@ using System.Reflection;
 using EPiServer.Core;
 using EPiServer.Validation;
 using NSubstitute;
-using SolidFoundation.Foundation.OptimizelyExtensions.Models;
 using SolidFoundation.Foundation.OptimizelyExtensions.Validation.ContentAreaItemRange;
 using Xunit;
 
@@ -22,7 +21,7 @@ public class ContentAreaItemRangePropertyValidationServiceTests
 
             var result = sut.ValidateProperty(testPage, propertyInfoMock);
 
-            Assert.IsType<NoError>(result);
+            Assert.Null(result);
             propertyInfoMock.DidNotReceive().GetValue(Arg.Any<object>());
         }
         
@@ -113,7 +112,7 @@ public class ContentAreaItemRangePropertyValidationServiceTests
 
             var result = sut.ValidateProperty(testPage, property!);
 
-            Assert.IsType<NoError>(result);
+            Assert.Null(result);
         }
 
         [Fact]
@@ -128,7 +127,7 @@ public class ContentAreaItemRangePropertyValidationServiceTests
 
             var result = sut.ValidateProperty(testPage, property!);
             
-            Assert.IsType<NoError>(result);
+            Assert.Null(result);
         }
         
         [Fact]
@@ -145,7 +144,7 @@ public class ContentAreaItemRangePropertyValidationServiceTests
 
             var result = sut.ValidateProperty(testPage, property!);
 
-            Assert.IsType<NoError>(result);
+            Assert.Null(result);
         } 
         
         [Fact]
@@ -198,7 +197,7 @@ public class ContentAreaItemRangePropertyValidationServiceTests
 
             var result = sut.ValidateProperty(testPage, property!);
             
-            Assert.IsType<NoError>(result);
+            Assert.Null(result);
         }        
     }
     

@@ -20,7 +20,7 @@ window.onload = function(){
 		if(getElm[i].children.length>1){
 			const smenu = document.createElement("span");
 			smenu.setAttribute("class","mobile-submenu");
-			smenu.setAttribute("OnClick","submenu("+i+")");
+			smenu.addEventListener("click", _ => submenu(i));
 			getElm[i].appendChild(smenu);
 		}
 	}

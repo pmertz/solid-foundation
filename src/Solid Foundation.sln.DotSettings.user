@@ -22,6 +22,7 @@
       &lt;TestId&gt;xUnit::05D8E250-A0A3-4776-9233-DFFD02589889::net6.0::SolidFoundation.Feature.SiteDemo1.Test.SiteDemo1.Pages.Products.Services.ProductsPageViewModelFactoryTests&lt;/TestId&gt;&#xD;
       &lt;TestId&gt;xUnit::05D8E250-A0A3-4776-9233-DFFD02589889::net6.0::SolidFoundation.Feature.SiteDemo1.Test.SiteDemo1.Pages.Products.Services.CategoryRollupViewModelFactoryTests.Create_ShouldReturnViewModel&lt;/TestId&gt;&#xD;
       &lt;TestId&gt;xUnit::05D8E250-A0A3-4776-9233-DFFD02589889::net6.0::SolidFoundation.Feature.SiteDemo1.Test.SiteDemo1.Pages.Products.Services.CategoryRollupViewModelFactoryTests&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::05D8E250-A0A3-4776-9233-DFFD02589889::net6.0::SolidFoundation.Feature.SiteDemo1.Test.SiteDemo1.Components.Footer.Services.FooterViewModelFactoryTests&lt;/TestId&gt;&#xD;
     &lt;/TestAncestor&gt;&#xD;
     &lt;Project Location="C:\Repos\solid-foundation\src\SolidFoundation.Foundation.OptimzelyExtensions.Test" Presentation="&amp;lt;_Test&amp;gt;\&amp;lt;Foundation&amp;gt;\&amp;lt;SolidFoundation.Foundation.OptimzelyExtensions.Test&amp;gt;" /&gt;&#xD;
   &lt;/Or&gt;&#xD;

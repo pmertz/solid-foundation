@@ -48,7 +48,7 @@ public class ProductsPageViewModelFactoryTests
             );
     }
 
-    private ProductCategoryPage CreateProductCategoryPageMock(int id)
+    private static ProductCategoryPage CreateProductCategoryPageMock(int id)
     {
         var mock = Substitute.For<ProductCategoryPage>();
         mock.ContentLink.Returns(new ContentReference(id));

@@ -6,5 +6,5 @@ namespace SolidFoundation.Foundation.OptimizelyExtensions.Validation.ContentArea
 
 public interface IContentAreaItemRangePropertyValidationService
 {
-    ValidationError ValidateProperty(IContent content, PropertyInfo contentAreaProp);
+    ValidationError? ValidateProperty(IContent content, PropertyInfo contentAreaProp);
 }

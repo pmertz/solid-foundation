@@ -1,7 +1,6 @@
 ﻿using EPiServer;
 using EPiServer.Core;
 using EPiServer.Validation;
-using SolidFoundation.Foundation.OptimizelyExtensions.Models;
 
 namespace SolidFoundation.Foundation.OptimizelyExtensions.Validation.ContentAreaItemRange;
 
@@ -23,7 +22,7 @@ public class ContentAreaItemRangeValidator : IValidate<IContent>
         foreach (var contentAreaProp in contentAreaProps)
         {
             var error = _propertyValidationService.ValidateProperty(instance, contentAreaProp);
-            if(error is not NoError)
+            if(error is not null)
                 yield return error;
         }
     }
