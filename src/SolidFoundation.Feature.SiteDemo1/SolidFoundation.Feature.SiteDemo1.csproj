@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SolidFoundation.Foundation.OptimizelyExtensions\SolidFoundation.Foundation.OptimizelyExtensions.csproj" />
     <ProjectReference Include="..\SolidFoundation.Foundation\SolidFoundation.Foundation.csproj" />
   </ItemGroup>
 

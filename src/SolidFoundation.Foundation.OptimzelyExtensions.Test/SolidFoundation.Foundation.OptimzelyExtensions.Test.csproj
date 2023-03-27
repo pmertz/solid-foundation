@@ -18,7 +18,7 @@
         <PackageReference Include="coverlet.msbuild" Version="3.1.2">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-        </PackageReference>        
+        </PackageReference>
         <PackageReference Include="coverlet.collector" Version="3.2.0">
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
             <PrivateAssets>all</PrivateAssets>
@@ -27,11 +27,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\SolidFounation.TestHelpers\SolidFounation.TestHelpers.csproj" />
-      <ProjectReference Include="..\SolidFoundation.Foundation\SolidFoundation.Foundation.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Foundation\Components" />
+      <ProjectReference Include="..\SolidFoundation.Foundation.OptimizelyExtensions\SolidFoundation.Foundation.OptimizelyExtensions.csproj" />
     </ItemGroup>
 
 </Project>

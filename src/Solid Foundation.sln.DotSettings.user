@@ -3,20 +3,26 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=78ba0f91_002D0ebd_002D4886_002D827e_002D95274aca1e25/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SiteSettingsServiceTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Project Location="C:\Repos\solid-foundation\src\SolidFoundation.Foundation.Test" Presentation="&amp;lt;_Test&amp;gt;\&amp;lt;Foundation&amp;gt;\&amp;lt;SolidFoundation.Foundation.Test&amp;gt;" /&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a86b4378_002Dfea2_002D4b87_002D8bb2_002D307b9cc6aa15/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SiteSettingsServiceTests #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a86b4378_002Dfea2_002D4b87_002D8bb2_002D307b9cc6aa15/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SiteSettingsServiceTests #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::2230D0ED-FB13-4A33-89A0-94203EB0D855::net6.0::SolidFoundation.Foundation.Test.Foundation.SiteSettings.Services.SiteSettingsServiceTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::05D8E250-A0A3-4776-9233-DFFD02589889::net6.0::SolidFoundation.Feature.SiteDemo1.Test.SiteDemo1.Pages.Products.Models.CategoryViewModelTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::05D8E250-A0A3-4776-9233-DFFD02589889::net6.0::SolidFoundation.Feature.SiteDemo1.Test.SiteDemo1.Components.Footer.FooterViewComponentTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::05D8E250-A0A3-4776-9233-DFFD02589889::net6.0::SolidFoundation.Feature.SiteDemo1.Test.SiteDemo1.Components.Footer.Services.FooterViewModelFactoryTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::05D8E250-A0A3-4776-9233-DFFD02589889::net6.0::SolidFoundation.Feature.SiteDemo1.Test.SiteDemo1.Components.MainNavigation.MainNavigationViewComponentTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::05D8E250-A0A3-4776-9233-DFFD02589889::net6.0::SolidFoundation.Feature.SiteDemo1.Test.SiteDemo1.Pages.Products.Services.ProductsPageViewModelFactoryTests.Create_ShouldReturnViewModel&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c5518084_002Ddbbf_002D4bdb_002D99c8_002Df5befbbedc0d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SiteSettingsServiceTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c5518084_002Ddbbf_002D4bdb_002D99c8_002Df5befbbedc0d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SiteSettingsServiceTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Or&gt;&#xD;
     &lt;Project Location="C:\Repos\solid-foundation\src\SolidFoundation.Foundation.Test" Presentation="&amp;lt;_Test&amp;gt;\&amp;lt;Foundation&amp;gt;\&amp;lt;SolidFoundation.Foundation.Test&amp;gt;" /&gt;&#xD;
     &lt;TestAncestor&gt;&#xD;
       &lt;TestId&gt;xUnit::05D8E250-A0A3-4776-9233-DFFD02589889::net6.0::SolidFoundation.Feature.SiteDemo1.Test.SiteDemo1.Pages.Products.Models.CategoryViewModelTests&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::05D8E250-A0A3-4776-9233-DFFD02589889::net6.0::SolidFoundation.Feature.SiteDemo1.Test.SiteDemo1.Pages.Products.Services.ProductsPageViewModelFactoryTests.Create_ShouldReturnViewModel&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::05D8E250-A0A3-4776-9233-DFFD02589889::net6.0::SolidFoundation.Feature.SiteDemo1.Test.SiteDemo1.Pages.Products.Services.ProductsPageViewModelFactoryTests&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::05D8E250-A0A3-4776-9233-DFFD02589889::net6.0::SolidFoundation.Feature.SiteDemo1.Test.SiteDemo1.Pages.Products.Services.CategoryRollupViewModelFactoryTests.Create_ShouldReturnViewModel&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::05D8E250-A0A3-4776-9233-DFFD02589889::net6.0::SolidFoundation.Feature.SiteDemo1.Test.SiteDemo1.Pages.Products.Services.CategoryRollupViewModelFactoryTests&lt;/TestId&gt;&#xD;
     &lt;/TestAncestor&gt;&#xD;
+    &lt;Project Location="C:\Repos\solid-foundation\src\SolidFoundation.Foundation.OptimzelyExtensions.Test" Presentation="&amp;lt;_Test&amp;gt;\&amp;lt;Foundation&amp;gt;\&amp;lt;SolidFoundation.Foundation.OptimzelyExtensions.Test&amp;gt;" /&gt;&#xD;
   &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

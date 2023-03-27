@@ -2,7 +2,7 @@
 using EPiServer.Core;
 using EPiServer.Validation;
 
-namespace SolidFoundation.Foundation.Foundation.Validation.ContentAreaItemRange;
+namespace SolidFoundation.Foundation.OptimizelyExtensions.Validation.ContentAreaItemRange;
 
 public interface IContentAreaItemRangePropertyValidationService
 {

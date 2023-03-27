@@ -1,9 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 using EPiServer.Shell.ObjectEditing;
 
-namespace SolidFoundation.Foundation.Foundation.SelectionFactories;
+namespace SolidFoundation.Foundation.OptimizelyExtensions.SelectionFactories;
 
 public class EnumSelectionFactory<TEnum> : ISelectionFactory
     where TEnum : Enum

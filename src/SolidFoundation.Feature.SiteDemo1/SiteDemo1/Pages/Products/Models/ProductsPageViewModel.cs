@@ -4,5 +4,5 @@ namespace SolidFoundation.Feature.SiteDemo1.SiteDemo1.Pages.Products.Models;
 
 public class ProductsPageViewModel
 {
-    public IEnumerable<CategoryViewModel>? Categories { get; set; }   
+    public IEnumerable<CategoryRollupViewModel> Categories { get; set; } = new List<CategoryRollupViewModel>();
 }

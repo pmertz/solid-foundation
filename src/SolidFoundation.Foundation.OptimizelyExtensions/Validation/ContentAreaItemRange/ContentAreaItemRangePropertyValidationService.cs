@@ -1,9 +1,9 @@
 ﻿using System.Reflection;
 using EPiServer.Core;
 using EPiServer.Validation;
-using SolidFoundation.Foundation.Foundation.Models;
+using SolidFoundation.Foundation.OptimizelyExtensions.Models;
 
-namespace SolidFoundation.Foundation.Foundation.Validation.ContentAreaItemRange;
+namespace SolidFoundation.Foundation.OptimizelyExtensions.Validation.ContentAreaItemRange;
 
 public class ContentAreaItemRangePropertyValidationService : IContentAreaItemRangePropertyValidationService
     {

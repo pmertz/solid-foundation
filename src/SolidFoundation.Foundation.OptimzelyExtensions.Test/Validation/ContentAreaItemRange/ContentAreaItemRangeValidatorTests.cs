@@ -2,10 +2,10 @@
 using System.Reflection;
 using EPiServer.Core;
 using NSubstitute;
-using SolidFoundation.Foundation.Foundation.Validation.ContentAreaItemRange;
+using SolidFoundation.Foundation.OptimizelyExtensions.Validation.ContentAreaItemRange;
 using Xunit;
 
-namespace SolidFoundation.Foundation.Test.Foundation.Validation.ContentAreaItemRange;
+namespace SolidFoundation.Foundation.OptimzelyExtensions.Test.Validation.ContentAreaItemRange;
 
 public class ContentAreaItemRangeValidatorTests
 {

@@ -4,12 +4,11 @@ using System.Reflection;
 using EPiServer.Core;
 using EPiServer.Validation;
 using NSubstitute;
-using SolidFoundation.Foundation.Foundation.Models;
-using SolidFoundation.Foundation.Foundation.Models.BaseModels;
-using SolidFoundation.Foundation.Foundation.Validation.ContentAreaItemRange;
+using SolidFoundation.Foundation.OptimizelyExtensions.Models;
+using SolidFoundation.Foundation.OptimizelyExtensions.Validation.ContentAreaItemRange;
 using Xunit;
 
-namespace SolidFoundation.Foundation.Test.Foundation.Validation.ContentAreaItemRange;
+namespace SolidFoundation.Foundation.OptimzelyExtensions.Test.Validation.ContentAreaItemRange;
 
 public class ContentAreaItemRangePropertyValidationServiceTests
     {
@@ -203,7 +202,7 @@ public class ContentAreaItemRangePropertyValidationServiceTests
         }        
     }
     
-    public class TestPage : SitePage
+    public class TestPage : PageData
     {
         [ContentAreaItemRange(minimum: 1, maximum: 3)]
         public ContentArea? WithAttribute { get; set; }

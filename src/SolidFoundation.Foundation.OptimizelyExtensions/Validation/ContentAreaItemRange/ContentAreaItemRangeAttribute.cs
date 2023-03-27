@@ -1,4 +1,4 @@
-﻿namespace SolidFoundation.Foundation.Foundation.Validation.ContentAreaItemRange;
+﻿namespace SolidFoundation.Foundation.OptimizelyExtensions.Validation.ContentAreaItemRange;
 
 [AttributeUsage(AttributeTargets.Property)]
 public class ContentAreaItemRangeAttribute : Attribute

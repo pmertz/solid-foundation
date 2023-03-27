@@ -3,10 +3,10 @@ using System.Reflection;
 using EPiServer.Shell.ObjectEditing;
 using NSubstitute;
 using SolidFounation.TestHelpers;
-using SolidFoundation.Foundation.Foundation.SelectionFactories;
+using SolidFoundation.Foundation.OptimizelyExtensions.SelectionFactories;
 using Xunit;
 
-namespace SolidFoundation.Foundation.Test.Foundation.SelectionFactories;
+namespace SolidFoundation.Foundation.OptimzelyExtensions.Test.SelectionFactories;
 
 public class EnumSelectionFactoryTests
 {

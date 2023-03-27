@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using EPiServer.Core;
 using EPiServer.Shell.ObjectEditing;
-using SolidFoundation.Foundation.Foundation.SelectionFactories;
+using SolidFoundation.Foundation.OptimizelyExtensions.SelectionFactories;
 
 namespace SolidFoundation.Feature.SiteDemo1.SiteDemo1.Blocks.TeaserLinks.Models;
 

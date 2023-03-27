@@ -4,7 +4,7 @@ using Xunit;
 
 namespace SolidFoundation.Feature.SiteDemo1.Test.SiteDemo1.Pages.Products.Models;
 
-public class CategoryViewModelTests
+public class CategoryRollupViewModelTests
 {
     [Fact]
     public void Ctor_ShouldInitialize()
