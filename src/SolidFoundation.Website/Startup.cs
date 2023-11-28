@@ -7,6 +7,7 @@ using EPiServer.Web.Routing;
 using Mediachase.Commerce.Anonymous;
 using SolidFoundation.Feature.SiteDemo1;
 using SolidFoundation.Foundation;
+using SolidFoundation.Foundation.OptimizelyExtensions;
 
 namespace SolidFoundation.Website;
 
@@ -30,7 +31,9 @@ public class Startup
         }
 
         services.AddFoundation()
+            .AddOptimizelyExtensions()
             .AddSiteDemo1();
+
         services
             .AddCmsAspNetIdentity<ApplicationUser>()
             .AddCommerce()

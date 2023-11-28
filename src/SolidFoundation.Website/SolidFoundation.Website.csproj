@@ -13,11 +13,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="EPiServer.CMS" Version="12.17.0" />
-    <PackageReference Include="EPiServer.CMS.AspNetCore.Mvc" Version="12.13.0" />
-    <PackageReference Include="EPiServer.CMS.Core" Version="12.13.0" />
-    <PackageReference Include="EPiServer.Commerce" Version="14.10.0" />
-    <PackageReference Include="EPiServer.Framework" Version="12.13.0" />
+    <PackageReference Include="EPiServer.CMS" Version="12.25.1" />
+    <PackageReference Include="EPiServer.CMS.AspNetCore.Mvc" Version="12.20.0" />
+    <PackageReference Include="EPiServer.CMS.AspNetCore.Routing" Version="12.20.0" />
+    <PackageReference Include="EPiServer.CMS.AspNetCore.TagHelpers" Version="12.20.0" />
+    <PackageReference Include="EPiServer.CMS.Core" Version="12.20.0" />
+    <PackageReference Include="EPiServer.CMS.UI.Core" Version="12.25.1" />
+    <PackageReference Include="EPiServer.Commerce" Version="14.15.5" />
+    <PackageReference Include="EPiServer.Framework" Version="12.20.0" />
+    <PackageReference Include="EPiServer.Hosting" Version="12.20.0" />
   </ItemGroup>
 
   <ItemGroup>
